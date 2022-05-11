@@ -2,51 +2,65 @@
   margin: 0;
   padding: 0; }
 
-.header-footer, header, footer {
-  background-color: #eca50a;
-  width: 100%;
-  font-family: verdana;
-  font-size: 20px; }
+section, .section-1, .section-2 {
+  margin: 50px 10px 50px 10px;
+  height: 400px;
+  background: #ffffff98;
+  box-shadow: 0 8px 32px 0 #292929;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px; }
 
-.header-footer, header, footer {
-  background-color: #eca50a;
-  width: 100%;
-  font-family: verdana;
-  font-size: 20px; }
-
-header nav {
+.section-1 {
+  overflow: hidden;
   display: flex;
-  justify-content: space-between; }
-  header nav a {
-    text-decoration: none;
-    font-family: verdana; }
+  flex-direction: column;
+  justify-content: center; }
 
-.header-footer, header, footer {
-  background-color: #eca50a;
-  width: 100%;
-  font-family: verdana;
-  font-size: 20px; }
-
-section {
-  width: 100%; }
-  section article {
-    width: 100%; }
-    section article p {
-      font-family: verdana;
-      line-height: 1.5;
-      font-style: italic;
-      font-weight: bold;
-      text-align: center; }
-
-.header-footer, header, footer {
-  background-color: #eca50a;
-  width: 100%;
-  font-family: verdana;
-  font-size: 20px; }
-
-footer {
+.section-2 {
+  height: auto;
   display: flex;
-  justify-content: space-between; }
-  footer a {
-    text-decoration: none;
-    font-family: verdana; }
+  gap: 30px;
+  align-items: center; }
+
+.foto-section-2, .foto-section-3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 20px; }
+
+.foto-section-3 {
+  margin: 20px; }
+
+.section-3 {
+  margin: 50px 10px 50px 10px;
+  height: 400px;
+  background: #ffffff98;
+  box-shadow: 0 8px 32px 0 #292929;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  height: auto;
+  display: flex;
+  gap: 30px;
+  align-items: center; }
+
+body {
+  background-color: #192055;
+  background-image: linear-gradient(180deg, #192055 0%, #6445a9 46%, #5d76ca 100%); }
+
+.contenedor-footer {
+  background: #ffffff98;
+  box-shadow: 0 8px 32px 0 #292929;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center; }
+
+@media (max-width: 630px) {
+  .section-2 {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .section-3 {
+    flex-wrap: wrap;
+    justify-content: center; } }

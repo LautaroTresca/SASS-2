@@ -1,17 +1,17 @@
-@import "../variables/variables";
-
-@mixin flexibilizar-centrar {
+@mixin section-2 {
+    margin: 50px 10px 50px 10px;
+    height: 400px;
+    background: #ffffff98;
+    box-shadow: 0 8px 32px 0 #292929;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
 }
 
-@mixin fuentes {
-    font-family: $tipo-de-letra;
-    line-height: 1.5;
-    font-style: italic;
-    font-weight: bold;
-}
-@mixin estilo-de-anclas {
-    text-decoration: none;
-    font-family: $tipo-de-letra;
+.section-3{
+    @include section-2;
 }
